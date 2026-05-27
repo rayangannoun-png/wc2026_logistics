@@ -77,20 +77,22 @@ F_PURPLE  = F_DGOLD     # stage-1 / decision accent (was purple)
 F_RED     = F_BLACK     # warnings / forced / extra cost (was red)
 F_LIME    = F_GOLD      # savings / reactive / positive (was lime)
 
-# Semantic aliases
-C_LED       = F_BLUE
+# Semantic aliases — strict palette order: 2-color figures use BLUE + LIGHT BLUE
+# (golds/black are reserved for 3+ color figures and accents)
+C_LED       = F_BLUE        # 2-color pair (LED / Soft)
 C_SOFT      = F_LBLUE
-C_STAGE1    = F_DGOLD
+C_STAGE1    = F_BLUE        # 2-color pair (Stage-1 / Stage-2)
 C_STAGE2    = F_LBLUE
-C_FORCED    = F_BLACK
-C_REACTIVE  = F_GOLD
-C_SAVINGS   = F_GOLD
-C_EXTRA     = F_BLACK
-C_BASELINE  = F_NAVY
+C_FORCED    = F_BLUE        # 2-color pair (Forced / Reactive)
+C_REACTIVE  = F_LBLUE
+C_EXTRA     = F_BLUE        # 2-color pair (Extra / Savings) — saturated = warning
+C_SAVINGS   = F_LBLUE       # lighter = positive
+C_BASELINE  = F_NAVY        # third-tier (palette[2])
 C_SEA       = F_NAVY
 C_NEUTRAL   = "#C8D0E0"
 
-COST_COLORS = [F_NAVY, F_DGOLD, F_BLUE, F_LBLUE, F_BLACK, F_GOLD]
+# Strict palette order: blue, light blue, navy, black, light gold, dark gold
+COST_COLORS = [F_BLUE, F_LBLUE, F_NAVY, F_BLACK, F_GOLD, F_DGOLD]
 
 plt.rcParams.update({
     "font.family":            "DejaVu Sans",
@@ -1072,9 +1074,9 @@ def fig_part2_feasibility():
 
     for i in forced_idx:
         ax.bar(x[i] - w / 2, windows[i],    w, color=C_REACTIVE,
-               edgecolor=F_RED, linewidth=2.2, zorder=4)
+               edgecolor=F_NAVY, linewidth=2.2, zorder=4)
         ax.bar(x[i] + w / 2, mintransit[i], w, color=C_FORCED,
-               edgecolor=F_RED, linewidth=2.2, zorder=4)
+               edgecolor=F_NAVY, linewidth=2.2, zorder=4)
 
     ax.axhline(1, color=F_NAVY, ls=":", lw=1.5)
 
@@ -1087,7 +1089,7 @@ def fig_part2_feasibility():
     legend_els = [
         mpatches.Patch(color=C_REACTIVE, label="Window (GSE → match)"),
         mpatches.Patch(color=C_FORCED,   label="Min transit (best site)"),
-        mpatches.Patch(facecolor=C_REACTIVE, edgecolor=F_RED, linewidth=2,
+        mpatches.Patch(facecolor=C_REACTIVE, edgecolor=F_NAVY, linewidth=2,
                        label="Forced-anticipatory match"),
         Line2D([0], [0], color=F_NAVY, ls=":", lw=1.5, label="Production lead time (1 day)"),
     ]
@@ -1301,27 +1303,27 @@ def fig_anticipatory_by_match():
     fig, ax = plt.subplots(figsize=(13.5, 6))
     x = np.arange(len(match_ids))
 
-    # Background bands: red shade for forced indices
+    # Background bands: subtle navy shade for forced indices
     for i, mid in enumerate(match_ids):
         if mid in forced_set:
-            ax.axvspan(i - 0.4, i + 0.4, color=F_RED, alpha=0.06, zorder=0)
+            ax.axvspan(i - 0.4, i + 0.4, color=F_NAVY, alpha=0.07, zorder=0)
 
-    # Window as filled bar (green)
+    # Window as filled bar (light blue, principal pair)
     ax.bar(x, windows, color=C_REACTIVE, edgecolor="white", width=0.62,
            alpha=0.85, label="Window (days from GSE to match)", zorder=2)
-    # Transit time as smaller bar (red overlay)
+    # Transit time as smaller bar (bright blue overlay)
     transit_plot = [t if t is not None else 0 for t in mintransit]
-    ax.bar(x, transit_plot, color=F_RED, edgecolor="white", width=0.30,
+    ax.bar(x, transit_plot, color=C_FORCED, edgecolor="white", width=0.30,
            alpha=0.92, label="Min transit time (best site)", zorder=3)
     # Production lead-time floor (1 day)
     ax.axhline(1, color=F_NAVY, ls=":", lw=1.5, label="Production lead time (1 d)")
 
     for i, (win, mid) in enumerate(zip(windows, match_ids)):
         forced = mid in forced_set
-        col = F_RED if forced else F_NAVY
+        col = F_NAVY
         ax.text(i, win + 0.18, f"{win}d",
                 ha="center", va="bottom", fontsize=8.5,
-                color=col, fontweight="bold")
+                color=col, fontweight="bold" if forced else "normal")
 
     ax.set_xticks(x)
     ax.set_xticklabels(
@@ -1334,8 +1336,8 @@ def fig_anticipatory_by_match():
 
     legend_els = [
         mpatches.Patch(color=C_REACTIVE, label="Window (GSE → match day)"),
-        mpatches.Patch(color=F_RED,      label="Min transit time (best site)"),
-        mpatches.Patch(facecolor=F_RED, alpha=0.10,
+        mpatches.Patch(color=C_FORCED,   label="Min transit time (best site)"),
+        mpatches.Patch(facecolor=F_NAVY, alpha=0.12,
                        label=f"Forced anticipatory ({len(forced_set)} matches)"),
         Line2D([0], [0], color=F_NAVY, ls=":", lw=1.5, label="Production lead time (1 d)"),
     ]
@@ -1419,7 +1421,7 @@ def fig_part2_production_days():
         ax.text(i, tot + 8000, f"\\${tot:,.0f}",
                 ha="center", fontsize=11, fontweight="bold", color=F_NAVY)
         ax.text(i, tot + 22_000, f"{fc} / 16 matches\nforced anticipatory",
-                ha="center", fontsize=9, color=F_RED, fontweight="bold")
+                ha="center", fontsize=9, color=F_NAVY, fontweight="bold")
         # inside labels
         ax.text(i, s1 / 2, f"\\${s1/1e3:.0f}k",
                 ha="center", va="center", color="white", fontsize=10, fontweight="bold")
@@ -1458,7 +1460,8 @@ def fig_part2_reactive_sites():
     fig, ax = plt.subplots(figsize=(10, 5.5))
     y = np.arange(len(sites))
 
-    colors = [F_PURPLE, F_BLUE, F_LBLUE, F_LIME, C_NEUTRAL]
+    # Strict palette order for 5 categories
+    colors = [F_BLUE, F_LBLUE, F_NAVY, F_BLACK, F_GOLD]
     palette = [colors[i % len(colors)] for i in range(len(sites))]
 
     bars = ax.barh(y, freqs, color=palette, edgecolor="white", height=0.6)
@@ -1506,22 +1509,24 @@ def fig_part2_forced_map():
         if venue not in coords:
             continue
         lat, lon, _, name = coords[venue]
-        col = F_RED if info["forced"] else F_LIME
-        size = 280 if info["forced"] else 220
+        col = C_FORCED if info["forced"] else C_REACTIVE
+        size = 300 if info["forced"] else 220
+        edge = F_NAVY
+        lw = 2.2 if info["forced"] else 1.2
         ax.scatter(lon, lat, marker="o", color=col, s=size,
-                   edgecolors=F_NAVY, linewidths=1.6, zorder=5, alpha=0.92)
+                   edgecolors=edge, linewidths=lw, zorder=5, alpha=0.95)
         short = venue.replace("STAD_", "")
         ax.annotate(f"{short}\n(w={info['min_window']}d)",
                     (lon, lat), xytext=(7, 6), textcoords="offset points",
                     fontsize=8.5,
-                    color=F_NAVY if not info["forced"] else F_RED,
-                    fontweight="bold")
+                    color=F_NAVY,
+                    fontweight="bold" if info["forced"] else "normal")
 
     legend_els = [
-        Line2D([0], [0], marker="o", color="w", markerfacecolor=F_RED,
-               markersize=14, markeredgecolor=F_NAVY,
+        Line2D([0], [0], marker="o", color="w", markerfacecolor=C_FORCED,
+               markersize=14, markeredgecolor=F_NAVY, markeredgewidth=2.0,
                label=f"Forced anticipatory venue ({sum(1 for v in venue_status.values() if v['forced'])} venues)"),
-        Line2D([0], [0], marker="o", color="w", markerfacecolor=F_LIME,
+        Line2D([0], [0], marker="o", color="w", markerfacecolor=C_REACTIVE,
                markersize=13, markeredgecolor=F_NAVY,
                label=f"Reactive venue ({sum(1 for v in venue_status.values() if not v['forced'])} venues)"),
     ]
