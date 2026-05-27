@@ -1684,6 +1684,127 @@ def fig_two_stage_timeline():
 
 
 # ============================================================================
+# === Project overview ===
+# ============================================================================
+
+def fig_three_models_overview():
+    """Project overview schematic — the three optimisation models."""
+    fig, ax = plt.subplots(figsize=(14, 8.5), facecolor="white")
+    ax.set_facecolor("white")
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 50)
+    ax.axis("off")
+
+    def box(x, y, w, h, text, facecolor, edgecolor=F_NAVY,
+            text_color="white", fontsize=10, fontweight="bold"):
+        rect = FancyBboxPatch((x - w/2, y - h/2), w, h,
+                              boxstyle="round,pad=0.4,rounding_size=0.6",
+                              facecolor=facecolor, edgecolor=edgecolor,
+                              linewidth=1.5, alpha=0.95)
+        ax.add_patch(rect)
+        ax.text(x, y, text, ha="center", va="center",
+                fontsize=fontsize, color=text_color, fontweight=fontweight)
+
+    # ---- Top header
+    box(50, 45.5, 70, 4,
+        "VENUE BRANDING LOGISTICS  ·  China → 16 host stadiums  ·  ≈ 2 726 m³ total",
+        F_NAVY, text_color="white", fontsize=11)
+
+    # ---- Category banners
+    box(28, 38, 42, 4.5,
+        "CATEGORY 1 — Generic branding (99.8 % volume)\n"
+        "Planned months ahead — cost & sustainability driven",
+        F_BLUE, text_color="white", fontsize=10)
+    box(76, 38, 38, 4.5,
+        "CATEGORY 2 — Nominative material (0.2 %)\n"
+        "Known 1–6 days before match — time-critical",
+        F_LBLUE, text_color=F_NAVY, fontsize=10)
+
+    # ---- Model boxes
+    box(13, 25, 22, 11,
+        "PART I\n\n"
+        "Deterministic LRP\n"
+        "min  TOTAL COST\n\n"
+        "LED + soft goods\n"
+        "Multi-dim FEU (vol + weight)",
+        F_BLUE, text_color="white", fontsize=9.5)
+
+    box(38, 25, 22, 11,
+        "PART I.B\n\n"
+        "Deterministic LRP\n"
+        "min  TOTAL CO₂\n\n"
+        "Soft goods only (LED rented locally)\n"
+        "GLEC v3 + EPA Phase-3 factors",
+        F_NAVY, text_color="white", fontsize=9.5)
+
+    box(76, 25, 30, 11,
+        "PART II\n\n"
+        "Two-stage stochastic MILP\n"
+        "min  E[ COST ]   s.t. time feasibility\n\n"
+        "Nominative R32 material\n"
+        "50 Plackett-Luce scenarios",
+        F_LBLUE, text_color=F_NAVY, fontsize=9.5)
+
+    # ---- Headlines under each model box
+    def headline(x, big, lines):
+        ax.text(x, 13.5, big, ha="center", fontsize=13,
+                fontweight="bold", color=F_NAVY)
+        for i, line in enumerate(lines):
+            ax.text(x, 11.0 - i*1.8, line, ha="center",
+                    fontsize=9, color=F_NAVY)
+
+    headline(13, "$458,626",
+             ["71 FEU (42 LED + 29 soft)",
+              "3 ports / 2 depots opened",
+              "Ocean freight = 68 % of cost"])
+
+    headline(38, "−49.3 t CO₂",
+             ["Manzanillo chosen over Houston",
+              "$38k green premium vs Part I",
+              "Shadow C price ≈ $767/t ( ≈11× EU ETS )"])
+
+    headline(76, "$302,535  (E[cost])",
+             ["6 / 16 R32 matches forced anticipatory",
+              "Stage-1 $165k  +  Stage-2 $138k",
+              "Same-day prod. would halve forced set"])
+
+    # ---- Connectors
+    # Top header → Category banners
+    ax.add_patch(FancyArrowPatch((40, 43.5), (28, 40.5),
+                                 arrowstyle="->", lw=1.8,
+                                 color=F_NAVY, mutation_scale=18))
+    ax.add_patch(FancyArrowPatch((60, 43.5), (76, 40.5),
+                                 arrowstyle="->", lw=1.8,
+                                 color=F_NAVY, mutation_scale=18))
+
+    # Category 1 banner → Part I and Part I.B
+    ax.add_patch(FancyArrowPatch((18, 35.5), (13, 30.7),
+                                 arrowstyle="->", lw=1.6,
+                                 color=F_BLUE, mutation_scale=16))
+    ax.add_patch(FancyArrowPatch((38, 35.5), (38, 30.7),
+                                 arrowstyle="->", lw=1.6,
+                                 color=F_BLUE, mutation_scale=16))
+
+    # Category 2 banner → Part II
+    ax.add_patch(FancyArrowPatch((76, 35.5), (76, 30.7),
+                                 arrowstyle="->", lw=1.6,
+                                 color=F_LBLUE, mutation_scale=16))
+
+    # ---- Bottom annotation
+    ax.text(50, 2.5,
+            "Three complementary lenses on the same supply chain:  "
+            "cost-efficiency (I)   ·   sustainability (I.B)   ·   uncertainty (II).",
+            ha="center", fontsize=10, color=F_NAVY, style="italic", fontweight="bold")
+
+    _title_block(ax,
+                 "Project overview — three optimisation models",
+                 "Cost minimisation  ·  CO₂ minimisation  ·  Two-stage stochastic recourse")
+    fig.tight_layout()
+    _footer(fig, "Schematic — project model overview")
+    _save(fig, "overview_three_models.png")
+
+
+# ============================================================================
 # Entry point
 # ============================================================================
 
@@ -1721,7 +1842,10 @@ def main():
     print("Generating Part II conceptual diagrams...")
     fig_two_stage_timeline()
 
-    print(f"\nAll 25 figures written to {dl.FIGURES_DIR}")
+    print("Generating project-overview schematic...")
+    fig_three_models_overview()
+
+    print(f"\nAll 26 figures written to {dl.FIGURES_DIR}")
 
 
 if __name__ == "__main__":
