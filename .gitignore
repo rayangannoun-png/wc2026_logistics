@@ -1,4 +1,33 @@
+# Python build artefacts
 __pycache__/
 *.pyc
-.DS_Store
 .ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# AI tooling (not relevant for repo readers)
+CLAUDE.md
+.claude/
+.cursor/
+.aider*
+
+# Internal project notes (kept locally, not published)
+docs/
+reference/
+
+# LaTeX build artefacts (in case the report is compiled locally)
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.bcf
+report/*.blg
+report/*.toc
+report/*.run.xml
+report/*.synctex.gz
+report/*.fdb_latexmk
+report/*.fls
+report/*.lof
+report/*.lot
+report/*.pdf
