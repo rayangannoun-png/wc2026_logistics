@@ -1,0 +1,4 @@
+scenario_id,storage_cost_per_m3_day_usd,scenario_description,basis
+low,0.03,"Storage mostly bundled into logistics contract or low-cost short-term warehouse space.","Scenario assumption; FIFA depot storage costs are not public."
+base,0.08,"Handled commercial warehouse/storage proxy for event materials.","Scenario assumption; use for baseline sensitivity."
+high,0.15,"Expensive short-term secured event storage or constrained venue-adjacent space.","Scenario assumption; upper-bound sensitivity."

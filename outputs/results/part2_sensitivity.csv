@@ -1,0 +1,12 @@
+parameter,value,total_expected_cost_usd,stage1_cost_usd,stage2_cost_usd,n_forced_anticipatory
+storage_scenario,low,302532,165001,137531,6
+storage_scenario,base,302535,165004,137531,6
+storage_scenario,high,302538,165007,137531,6
+production_cost_per_m2,$20,121035,66004,55031,6
+production_cost_per_m2,$50,302535,165004,137531,6
+production_cost_per_m2,$86,520335,283804,236531,6
+anticipatory_waste,1x,220010,192509,27501,6
+anticipatory_waste,2x,302535,165004,137531,6
+anticipatory_waste,3x,385035,247504,137531,6
+production_days,0d,261298,82502,178796,3
+production_days,1d,302535,165004,137531,6

@@ -1,0 +1,8 @@
+depot_id,node_id,depot_role,region_served,capacity_proxy_m3,fixed_setup_cost_usd,handling_cost_per_m3_usd,location_confidence,cost_confidence,basis
+DFW_DEPOT,DFW_DEPOT_NODE,central_us_warehouse_proxy,"Central US; Texas; Kansas City; national overflow",,15000,16.67,high,low,"FIFA warehouse roles in Dallas/Arlington plus IBC geography; costs are report assumptions."
+MEX_DEPOT,MEX_DEPOT_NODE,mexico_regional_depot_proxy,"Mexico City; Monterrey; Guadalajara",,10000,16.67,high,low,"Mexico logistics roles, customs/freight roles, and Mexico City coordination presence; costs are report assumptions."
+TOR_DEPOT,TOR_DEPOT_NODE,canada_east_depot_proxy,"Toronto; Northeast overflow",,15000,16.67,medium_high,low,"Canada East logistics proxy near Toronto venue; costs are report assumptions."
+VAN_DEPOT,VAN_DEPOT_NODE,canada_west_depot_proxy,"Vancouver; Seattle overflow",,15000,16.67,medium_high,low,"Canada West logistics proxy near BC Place, YVR, and Port of Vancouver; costs are report assumptions."
+LAX_DEPOT,LAX_DEPOT_NODE,west_us_depot_proxy,"Los Angeles; Bay Area; Seattle; western overflow",,15000,16.67,medium,low,"West US proxy near LA/LB ports and large Inland Empire warehousing market; costs are report assumptions."
+EWR_DEPOT,EWR_DEPOT_NODE,east_us_depot_proxy,"New York/New Jersey; Philadelphia; Boston; Toronto overflow",,15000,16.67,medium,low,"East US proxy near Port NY/NJ and New Jersey logistics presence; costs are report assumptions."
+MIA_DEPOT_CONTROL,MIA_DEPOT_CONTROL_NODE,southeast_depot_control_proxy,"Miami; Atlanta; Southeast support",,15000,16.67,medium,low,"Southeast support/control proxy; evidence is stronger for coordination than confirmed warehousing; costs are report assumptions."

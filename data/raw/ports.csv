@@ -1,0 +1,7 @@
+port_id,node_id,port_name,country,coast,active_candidate,status,use_case,fcl_rate_feu_usd,lcl_rate_m3_usd,customs_fixed_cost_usd,handling_cost_per_feu_usd,sea_distance_from_china_km,source_basis
+LA_LB,PORT_LA_LB,Los Angeles / Long Beach,USA,Pacific,yes,primary_model_port,"Pacific import gateway; cost-optimal FCL and LCL candidate",3357,85,2700,550,10200,"Current report rates and assumptions."
+NY_NJ,PORT_NY_NJ,New York / New Jersey,USA,Atlantic,yes,primary_model_port,"East Coast import gateway; cost-optimal FCL and LCL candidate",4252,100,2700,550,21100,"Current report rates and assumptions."
+HOU,PORT_HOU,Houston,USA,Gulf,yes,scenario_port,"Gulf option; appears in LCL and sensitivity scenarios",4374,110,2700,550,22200,"Current report rates and assumptions."
+VAN,PORT_VAN,Vancouver,Canada,Pacific,yes,scenario_port,"Canadian Pacific option; appears in LCL and emissions scenarios",3190,82,600,550,8500,"Current report rates and assumptions."
+MNZ,PORT_MNZ,Manzanillo,Mexico,Pacific,yes,scenario_port,"Mexican Pacific option; important for emissions scenarios",4694,,3500,550,10900,"Current report rates and assumptions."
+VER,PORT_VER,Veracruz,Mexico,Gulf,no,excluded_candidate,"Mexican Gulf test port excluded in current report",,,3500,550,,"Current report: no direct FCL offering found."

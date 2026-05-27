@@ -1,0 +1,801 @@
+scenario,probability,match,home_team,away_team,venue_node,date
+0,0.02,73,Mexico,Qatar,STAD_LA,2026-06-28
+0,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+0,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+0,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+0,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+0,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+0,0.02,79,South Africa,Ivory Coast,STAD_MEX,2026-06-30
+0,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+0,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+0,0.02,82,Iran,Colombia,STAD_SEA,2026-07-01
+0,0.02,83,DR Congo,Croatia,STAD_TOR,2026-07-02
+0,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+0,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+0,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+0,0.02,87,Portugal,Turkey,STAD_KC,2026-07-03
+0,0.02,88,Paraguay,Belgium,STAD_DAL,2026-07-03
+1,0.02,73,Mexico,Bosnia,STAD_LA,2026-06-28
+1,0.02,74,Ivory Coast,South Korea,STAD_BOS,2026-06-29
+1,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+1,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+1,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+1,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+1,0.02,79,South Africa,Ecuador,STAD_MEX,2026-06-30
+1,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+1,0.02,81,Turkey,Canada,STAD_SF,2026-07-01
+1,0.02,82,Egypt,Colombia,STAD_SEA,2026-07-01
+1,0.02,83,Uzbekistan,Croatia,STAD_TOR,2026-07-02
+1,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+1,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+1,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+1,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+1,0.02,88,USA,Belgium,STAD_DAL,2026-07-03
+2,0.02,73,Mexico,Switzerland,STAD_LA,2026-06-28
+2,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+2,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+2,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+2,0.02,77,Norway,Scotland,STAD_NY_NJ,2026-06-30
+2,0.02,78,Ivory Coast,France,STAD_DAL,2026-06-30
+2,0.02,79,Czechia,Ecuador,STAD_MEX,2026-06-30
+2,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+2,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+2,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+2,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+2,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+2,0.02,85,Canada,Sweden,STAD_VAN,2026-07-02
+2,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+2,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+2,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+3,0.02,73,South Korea,Switzerland,STAD_LA,2026-06-28
+3,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+3,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+3,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+3,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+3,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+3,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+3,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+3,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+3,0.02,82,Belgium,Sweden,STAD_SEA,2026-07-01
+3,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+3,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+3,0.02,85,Canada,Paraguay,STAD_VAN,2026-07-02
+3,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+3,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+3,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+4,0.02,73,Czechia,Canada,STAD_LA,2026-06-28
+4,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+4,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+4,0.02,76,Scotland,Japan,STAD_HOU,2026-06-29
+4,0.02,77,France,Brazil,STAD_NY_NJ,2026-06-30
+4,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+4,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+4,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+4,0.02,81,Paraguay,Bosnia,STAD_SF,2026-07-01
+4,0.02,82,Belgium,Turkey,STAD_SEA,2026-07-01
+4,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+4,0.02,84,Uruguay,Jordan,STAD_LA,2026-07-02
+4,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+4,0.02,86,Argentina,Spain,STAD_MIA,2026-07-02
+4,0.02,87,Portugal,Egypt,STAD_KC,2026-07-03
+4,0.02,88,USA,Iran,STAD_DAL,2026-07-03
+5,0.02,73,Czechia,Switzerland,STAD_LA,2026-06-28
+5,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+5,0.02,75,Tunisia,Morocco,STAD_MTY,2026-06-29
+5,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+5,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+5,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+5,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+5,0.02,80,England,Uruguay,STAD_ATL,2026-07-01
+5,0.02,81,USA,Canada,STAD_SF,2026-07-01
+5,0.02,82,Belgium,Senegal,STAD_SEA,2026-07-01
+5,0.02,83,Colombia,Ghana,STAD_TOR,2026-07-02
+5,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+5,0.02,85,Qatar,Netherlands,STAD_VAN,2026-07-02
+5,0.02,86,Argentina,Cape Verde,STAD_MIA,2026-07-02
+5,0.02,87,Portugal,Croatia,STAD_KC,2026-07-03
+5,0.02,88,Turkey,Iran,STAD_DAL,2026-07-03
+6,0.02,73,South Korea,Canada,STAD_LA,2026-06-28
+6,0.02,74,Germany,South Africa,STAD_BOS,2026-06-29
+6,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+6,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+6,0.02,77,Norway,Scotland,STAD_NY_NJ,2026-06-30
+6,0.02,78,Ivory Coast,Senegal,STAD_DAL,2026-06-30
+6,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+6,0.02,80,England,France,STAD_ATL,2026-07-01
+6,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+6,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+6,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+6,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+6,0.02,85,Switzerland,Netherlands,STAD_VAN,2026-07-02
+6,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+6,0.02,87,Portugal,Australia,STAD_KC,2026-07-03
+6,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+7,0.02,73,Czechia,Canada,STAD_LA,2026-06-28
+7,0.02,74,Ecuador,South Korea,STAD_BOS,2026-06-29
+7,0.02,75,Sweden,Scotland,STAD_MTY,2026-06-29
+7,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+7,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+7,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+7,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+7,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+7,0.02,81,Australia,Japan,STAD_SF,2026-07-01
+7,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+7,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+7,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+7,0.02,85,Switzerland,Turkey,STAD_VAN,2026-07-02
+7,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+7,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+7,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+8,0.02,73,South Korea,Switzerland,STAD_LA,2026-06-28
+8,0.02,74,Germany,South Africa,STAD_BOS,2026-06-29
+8,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+8,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+8,0.02,77,France,Paraguay,STAD_NY_NJ,2026-06-30
+8,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+8,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+8,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+8,0.02,81,USA,Qatar,STAD_SF,2026-07-01
+8,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+8,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+8,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+8,0.02,85,Bosnia,Tunisia,STAD_VAN,2026-07-02
+8,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+8,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+8,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+9,0.02,73,Czechia,Switzerland,STAD_LA,2026-06-28
+9,0.02,74,Ivory Coast,South Korea,STAD_BOS,2026-06-29
+9,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+9,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+9,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+9,0.02,78,Germany,Senegal,STAD_DAL,2026-06-30
+9,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+9,0.02,80,England,Norway,STAD_ATL,2026-07-01
+9,0.02,81,Turkey,Canada,STAD_SF,2026-07-01
+9,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+9,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+9,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+9,0.02,85,Qatar,Sweden,STAD_VAN,2026-07-02
+9,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+9,0.02,87,Portugal,Australia,STAD_KC,2026-07-03
+9,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+10,0.02,73,South Africa,Bosnia,STAD_LA,2026-06-28
+10,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+10,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+10,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+10,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+10,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+10,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+10,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+10,0.02,81,USA,Canada,STAD_SF,2026-07-01
+10,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+10,0.02,83,Portugal,Croatia,STAD_TOR,2026-07-02
+10,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+10,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+10,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+10,0.02,87,Colombia,Turkey,STAD_KC,2026-07-03
+10,0.02,88,Paraguay,Iran,STAD_DAL,2026-07-03
+11,0.02,73,South Africa,Canada,STAD_LA,2026-06-28
+11,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+11,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+11,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+11,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+11,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+11,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+11,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+11,0.02,81,Turkey,Sweden,STAD_SF,2026-07-01
+11,0.02,82,Belgium,USA,STAD_SEA,2026-07-01
+11,0.02,83,Colombia,Ghana,STAD_TOR,2026-07-02
+11,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+11,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+11,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+11,0.02,87,Portugal,Croatia,STAD_KC,2026-07-03
+11,0.02,88,Australia,Iran,STAD_DAL,2026-07-03
+12,0.02,73,South Korea,Bosnia,STAD_LA,2026-06-28
+12,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+12,0.02,75,Japan,Brazil,STAD_MTY,2026-06-29
+12,0.02,76,Morocco,Netherlands,STAD_HOU,2026-06-29
+12,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+12,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+12,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+12,0.02,80,England,Norway,STAD_ATL,2026-07-01
+12,0.02,81,USA,Algeria,STAD_SF,2026-07-01
+12,0.02,82,Belgium,Turkey,STAD_SEA,2026-07-01
+12,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+12,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+12,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+12,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+12,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+12,0.02,88,Paraguay,Iran,STAD_DAL,2026-07-03
+13,0.02,73,Czechia,Bosnia,STAD_LA,2026-06-28
+13,0.02,74,Ecuador,South Africa,STAD_BOS,2026-06-29
+13,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+13,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+13,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+13,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+13,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+13,0.02,80,England,Uruguay,STAD_ATL,2026-07-01
+13,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+13,0.02,82,Belgium,Senegal,STAD_SEA,2026-07-01
+13,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+13,0.02,84,Cape Verde,Austria,STAD_LA,2026-07-02
+13,0.02,85,Switzerland,Turkey,STAD_VAN,2026-07-02
+13,0.02,86,Argentina,Spain,STAD_MIA,2026-07-02
+13,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+13,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+14,0.02,73,Mexico,Bosnia,STAD_LA,2026-06-28
+14,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+14,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+14,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+14,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+14,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+14,0.02,79,Czechia,Ivory Coast,STAD_MEX,2026-06-30
+14,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+14,0.02,81,USA,Canada,STAD_SF,2026-07-01
+14,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+14,0.02,83,Portugal,Croatia,STAD_TOR,2026-07-02
+14,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+14,0.02,85,Switzerland,Netherlands,STAD_VAN,2026-07-02
+14,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+14,0.02,87,Colombia,Paraguay,STAD_KC,2026-07-03
+14,0.02,88,Turkey,New Zealand,STAD_DAL,2026-07-03
+15,0.02,73,Czechia,Switzerland,STAD_LA,2026-06-28
+15,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+15,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+15,0.02,76,Brazil,Tunisia,STAD_HOU,2026-06-29
+15,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+15,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+15,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+15,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+15,0.02,81,Turkey,Canada,STAD_SF,2026-07-01
+15,0.02,82,Belgium,Netherlands,STAD_SEA,2026-07-01
+15,0.02,83,Colombia,Ghana,STAD_TOR,2026-07-02
+15,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+15,0.02,85,Bosnia,Croatia,STAD_VAN,2026-07-02
+15,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+15,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+15,0.02,88,USA,New Zealand,STAD_DAL,2026-07-03
+16,0.02,73,Czechia,Switzerland,STAD_LA,2026-06-28
+16,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+16,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+16,0.02,76,Scotland,Japan,STAD_HOU,2026-06-29
+16,0.02,77,France,Brazil,STAD_NY_NJ,2026-06-30
+16,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+16,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+16,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+16,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+16,0.02,82,Egypt,Austria,STAD_SEA,2026-07-01
+16,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+16,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+16,0.02,85,Canada,Sweden,STAD_VAN,2026-07-02
+16,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+16,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+16,0.02,88,USA,Belgium,STAD_DAL,2026-07-03
+17,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+17,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+17,0.02,75,Japan,Brazil,STAD_MTY,2026-06-29
+17,0.02,76,Scotland,Netherlands,STAD_HOU,2026-06-29
+17,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+17,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+17,0.02,79,South Korea,Ivory Coast,STAD_MEX,2026-06-30
+17,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+17,0.02,81,Paraguay,Bosnia,STAD_SF,2026-07-01
+17,0.02,82,Belgium,USA,STAD_SEA,2026-07-01
+17,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+17,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+17,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+17,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+17,0.02,87,Portugal,Egypt,STAD_KC,2026-07-03
+17,0.02,88,Turkey,Iran,STAD_DAL,2026-07-03
+18,0.02,73,Czechia,Switzerland,STAD_LA,2026-06-28
+18,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+18,0.02,75,Sweden,Morocco,STAD_MTY,2026-06-29
+18,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+18,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+18,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+18,0.02,79,Mexico,Japan,STAD_MEX,2026-06-30
+18,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+18,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+18,0.02,82,Belgium,Paraguay,STAD_SEA,2026-07-01
+18,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+18,0.02,84,Spain,Argentina,STAD_LA,2026-07-02
+18,0.02,85,Canada,Iran,STAD_VAN,2026-07-02
+18,0.02,86,Austria,Uruguay,STAD_MIA,2026-07-02
+18,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+18,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+19,0.02,73,Czechia,Qatar,STAD_LA,2026-06-28
+19,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+19,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+19,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+19,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+19,0.02,78,Ivory Coast,Senegal,STAD_DAL,2026-06-30
+19,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+19,0.02,80,England,Norway,STAD_ATL,2026-07-01
+19,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+19,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+19,0.02,83,Portugal,Croatia,STAD_TOR,2026-07-02
+19,0.02,84,Spain,Argentina,STAD_LA,2026-07-02
+19,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+19,0.02,86,Austria,Uruguay,STAD_MIA,2026-07-02
+19,0.02,87,Colombia,Paraguay,STAD_KC,2026-07-03
+19,0.02,88,USA,New Zealand,STAD_DAL,2026-07-03
+20,0.02,73,Mexico,Switzerland,STAD_LA,2026-06-28
+20,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+20,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+20,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+20,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+20,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+20,0.02,79,South Africa,Ivory Coast,STAD_MEX,2026-06-30
+20,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+20,0.02,81,Turkey,Qatar,STAD_SF,2026-07-01
+20,0.02,82,Belgium,Japan,STAD_SEA,2026-07-01
+20,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+20,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+20,0.02,85,Canada,USA,STAD_VAN,2026-07-02
+20,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+20,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+20,0.02,88,Paraguay,Iran,STAD_DAL,2026-07-03
+21,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+21,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+21,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+21,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+21,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+21,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+21,0.02,79,Czechia,Sweden,STAD_MEX,2026-06-30
+21,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+21,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+21,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+21,0.02,83,Portugal,Croatia,STAD_TOR,2026-07-02
+21,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+21,0.02,85,Switzerland,Iran,STAD_VAN,2026-07-02
+21,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+21,0.02,87,Colombia,Turkey,STAD_KC,2026-07-03
+21,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+22,0.02,73,South Korea,Canada,STAD_LA,2026-06-28
+22,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+22,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+22,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+22,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+22,0.02,78,Ivory Coast,Senegal,STAD_DAL,2026-06-30
+22,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+22,0.02,80,England,Uruguay,STAD_ATL,2026-07-01
+22,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+22,0.02,82,Belgium,Norway,STAD_SEA,2026-07-01
+22,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+22,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+22,0.02,85,Bosnia,Austria,STAD_VAN,2026-07-02
+22,0.02,86,Argentina,Saudi Arabia,STAD_MIA,2026-07-02
+22,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+22,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+23,0.02,73,Czechia,Canada,STAD_LA,2026-06-28
+23,0.02,74,Ivory Coast,Mexico,STAD_BOS,2026-06-29
+23,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+23,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+23,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+23,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+23,0.02,79,South Korea,Germany,STAD_MEX,2026-06-30
+23,0.02,80,England,Uruguay,STAD_ATL,2026-07-01
+23,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+23,0.02,82,Belgium,Norway,STAD_SEA,2026-07-01
+23,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+23,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+23,0.02,85,Switzerland,Austria,STAD_VAN,2026-07-02
+23,0.02,86,Argentina,Cape Verde,STAD_MIA,2026-07-02
+23,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+23,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+24,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+24,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+24,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+24,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+24,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+24,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+24,0.02,79,South Africa,Ivory Coast,STAD_MEX,2026-06-30
+24,0.02,80,England,Norway,STAD_ATL,2026-07-01
+24,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+24,0.02,82,Belgium,Colombia,STAD_SEA,2026-07-01
+24,0.02,83,DR Congo,Ghana,STAD_TOR,2026-07-02
+24,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+24,0.02,85,Switzerland,Croatia,STAD_VAN,2026-07-02
+24,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+24,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+24,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+25,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+25,0.02,74,Curacao,South Korea,STAD_BOS,2026-06-29
+25,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+25,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+25,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+25,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+25,0.02,79,Czechia,Ivory Coast,STAD_MEX,2026-06-30
+25,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+25,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+25,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+25,0.02,83,Colombia,Ghana,STAD_TOR,2026-07-02
+25,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+25,0.02,85,Switzerland,Japan,STAD_VAN,2026-07-02
+25,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+25,0.02,87,Portugal,Croatia,STAD_KC,2026-07-03
+25,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+26,0.02,73,Mexico,Bosnia,STAD_LA,2026-06-28
+26,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+26,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+26,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+26,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+26,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+26,0.02,79,Czechia,Ivory Coast,STAD_MEX,2026-06-30
+26,0.02,80,Croatia,Norway,STAD_ATL,2026-07-01
+26,0.02,81,USA,Qatar,STAD_SF,2026-07-01
+26,0.02,82,Belgium,Sweden,STAD_SEA,2026-07-01
+26,0.02,83,Colombia,England,STAD_TOR,2026-07-02
+26,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+26,0.02,85,Switzerland,Ghana,STAD_VAN,2026-07-02
+26,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+26,0.02,87,Portugal,Australia,STAD_KC,2026-07-03
+26,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+27,0.02,73,Mexico,Qatar,STAD_LA,2026-06-28
+27,0.02,74,Ecuador,South Korea,STAD_BOS,2026-06-29
+27,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+27,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+27,0.02,77,Senegal,Scotland,STAD_NY_NJ,2026-06-30
+27,0.02,78,Germany,France,STAD_DAL,2026-06-30
+27,0.02,79,Czechia,Ivory Coast,STAD_MEX,2026-06-30
+27,0.02,80,England,Norway,STAD_ATL,2026-07-01
+27,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+27,0.02,82,Belgium,Japan,STAD_SEA,2026-07-01
+27,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+27,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+27,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+27,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+27,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+27,0.02,88,Turkey,Iran,STAD_DAL,2026-07-03
+28,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+28,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+28,0.02,75,Japan,Brazil,STAD_MTY,2026-06-29
+28,0.02,76,Haiti,Netherlands,STAD_HOU,2026-06-29
+28,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+28,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+28,0.02,79,South Korea,Ivory Coast,STAD_MEX,2026-06-30
+28,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+28,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+28,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+28,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+28,0.02,84,Spain,Argentina,STAD_LA,2026-07-02
+28,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+28,0.02,86,Algeria,Cape Verde,STAD_MIA,2026-07-02
+28,0.02,87,Portugal,Egypt,STAD_KC,2026-07-03
+28,0.02,88,Turkey,New Zealand,STAD_DAL,2026-07-03
+29,0.02,73,South Korea,Qatar,STAD_LA,2026-06-28
+29,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+29,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+29,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+29,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+29,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+29,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+29,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+29,0.02,81,USA,Canada,STAD_SF,2026-07-01
+29,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+29,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+29,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+29,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+29,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+29,0.02,87,Portugal,Turkey,STAD_KC,2026-07-03
+29,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+30,0.02,73,Czechia,Bosnia,STAD_LA,2026-06-28
+30,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+30,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+30,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+30,0.02,77,France,Paraguay,STAD_NY_NJ,2026-06-30
+30,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+30,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+30,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+30,0.02,81,USA,Canada,STAD_SF,2026-07-01
+30,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+30,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+30,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+30,0.02,85,Switzerland,Japan,STAD_VAN,2026-07-02
+30,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+30,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+30,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+31,0.02,73,South Africa,Qatar,STAD_LA,2026-06-28
+31,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+31,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+31,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+31,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+31,0.02,78,Ivory Coast,Senegal,STAD_DAL,2026-06-30
+31,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+31,0.02,80,England,Norway,STAD_ATL,2026-07-01
+31,0.02,81,Turkey,Switzerland,STAD_SF,2026-07-01
+31,0.02,82,Belgium,USA,STAD_SEA,2026-07-01
+31,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+31,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+31,0.02,85,Bosnia,Sweden,STAD_VAN,2026-07-02
+31,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+31,0.02,87,Portugal,Egypt,STAD_KC,2026-07-03
+31,0.02,88,Australia,New Zealand,STAD_DAL,2026-07-03
+32,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+32,0.02,74,Germany,Bosnia,STAD_BOS,2026-06-29
+32,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+32,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+32,0.02,77,Senegal,Morocco,STAD_NY_NJ,2026-06-30
+32,0.02,78,Ivory Coast,France,STAD_DAL,2026-06-30
+32,0.02,79,Czechia,Ecuador,STAD_MEX,2026-06-30
+32,0.02,80,England,Norway,STAD_ATL,2026-07-01
+32,0.02,81,Turkey,Sweden,STAD_SF,2026-07-01
+32,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+32,0.02,83,Colombia,Ghana,STAD_TOR,2026-07-02
+32,0.02,84,Uruguay,Austria,STAD_LA,2026-07-02
+32,0.02,85,Switzerland,Croatia,STAD_VAN,2026-07-02
+32,0.02,86,Argentina,Spain,STAD_MIA,2026-07-02
+32,0.02,87,Portugal,Australia,STAD_KC,2026-07-03
+32,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+33,0.02,73,South Africa,Bosnia,STAD_LA,2026-06-28
+33,0.02,74,Ecuador,South Korea,STAD_BOS,2026-06-29
+33,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+33,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+33,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+33,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+33,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+33,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+33,0.02,81,USA,Japan,STAD_SF,2026-07-01
+33,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+33,0.02,83,Uzbekistan,Croatia,STAD_TOR,2026-07-02
+33,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+33,0.02,85,Switzerland,Colombia,STAD_VAN,2026-07-02
+33,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+33,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+33,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+34,0.02,73,Czechia,Qatar,STAD_LA,2026-06-28
+34,0.02,74,Germany,Canada,STAD_BOS,2026-06-29
+34,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+34,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+34,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+34,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+34,0.02,79,South Korea,Ivory Coast,STAD_MEX,2026-06-30
+34,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+34,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+34,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+34,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+34,0.02,84,Uruguay,Austria,STAD_LA,2026-07-02
+34,0.02,85,Switzerland,Paraguay,STAD_VAN,2026-07-02
+34,0.02,86,Argentina,Spain,STAD_MIA,2026-07-02
+34,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+34,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+35,0.02,73,Czechia,Canada,STAD_LA,2026-06-28
+35,0.02,74,Germany,Bosnia,STAD_BOS,2026-06-29
+35,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+35,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+35,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+35,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+35,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+35,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+35,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+35,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+35,0.02,83,DR Congo,Croatia,STAD_TOR,2026-07-02
+35,0.02,84,Spain,Argentina,STAD_LA,2026-07-02
+35,0.02,85,Switzerland,Colombia,STAD_VAN,2026-07-02
+35,0.02,86,Austria,Uruguay,STAD_MIA,2026-07-02
+35,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+35,0.02,88,Turkey,New Zealand,STAD_DAL,2026-07-03
+36,0.02,73,South Korea,Canada,STAD_LA,2026-06-28
+36,0.02,74,Ecuador,Czechia,STAD_BOS,2026-06-29
+36,0.02,75,Netherlands,Brazil,STAD_MTY,2026-06-29
+36,0.02,76,Morocco,Japan,STAD_HOU,2026-06-29
+36,0.02,77,France,Paraguay,STAD_NY_NJ,2026-06-30
+36,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+36,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+36,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+36,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+36,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+36,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+36,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+36,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+36,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+36,0.02,87,Portugal,Iran,STAD_KC,2026-07-03
+36,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+37,0.02,73,South Africa,Switzerland,STAD_LA,2026-06-28
+37,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+37,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+37,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+37,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+37,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+37,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+37,0.02,80,England,Uruguay,STAD_ATL,2026-07-01
+37,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+37,0.02,82,Belgium,Senegal,STAD_SEA,2026-07-01
+37,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+37,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+37,0.02,85,Bosnia,Algeria,STAD_VAN,2026-07-02
+37,0.02,86,Argentina,Saudi Arabia,STAD_MIA,2026-07-02
+37,0.02,87,Portugal,Turkey,STAD_KC,2026-07-03
+37,0.02,88,Australia,Egypt,STAD_DAL,2026-07-03
+38,0.02,73,Mexico,Switzerland,STAD_LA,2026-06-28
+38,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+38,0.02,75,Sweden,Scotland,STAD_MTY,2026-06-29
+38,0.02,76,Morocco,Japan,STAD_HOU,2026-06-29
+38,0.02,77,France,Brazil,STAD_NY_NJ,2026-06-30
+38,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+38,0.02,79,Czechia,Ivory Coast,STAD_MEX,2026-06-30
+38,0.02,80,England,Norway,STAD_ATL,2026-07-01
+38,0.02,81,USA,Canada,STAD_SF,2026-07-01
+38,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+38,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+38,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+38,0.02,85,Bosnia,Netherlands,STAD_VAN,2026-07-02
+38,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+38,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+38,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+39,0.02,73,Czechia,Canada,STAD_LA,2026-06-28
+39,0.02,74,Germany,South Africa,STAD_BOS,2026-06-29
+39,0.02,75,Japan,Morocco,STAD_MTY,2026-06-29
+39,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+39,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+39,0.02,78,Ivory Coast,Norway,STAD_DAL,2026-06-30
+39,0.02,79,Mexico,Ecuador,STAD_MEX,2026-06-30
+39,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+39,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+39,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+39,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+39,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+39,0.02,85,Switzerland,Turkey,STAD_VAN,2026-07-02
+39,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+39,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+39,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+40,0.02,73,Mexico,Switzerland,STAD_LA,2026-06-28
+40,0.02,74,Ecuador,Czechia,STAD_BOS,2026-06-29
+40,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+40,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+40,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+40,0.02,78,Germany,Norway,STAD_DAL,2026-06-30
+40,0.02,79,South Korea,Ivory Coast,STAD_MEX,2026-06-30
+40,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+40,0.02,81,USA,Bosnia,STAD_SF,2026-07-01
+40,0.02,82,Belgium,Colombia,STAD_SEA,2026-07-01
+40,0.02,83,DR Congo,Croatia,STAD_TOR,2026-07-02
+40,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+40,0.02,85,Canada,Japan,STAD_VAN,2026-07-02
+40,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+40,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+40,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+41,0.02,73,South Korea,Canada,STAD_LA,2026-06-28
+41,0.02,74,Germany,Bosnia,STAD_BOS,2026-06-29
+41,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+41,0.02,76,Brazil,Sweden,STAD_HOU,2026-06-29
+41,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+41,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+41,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+41,0.02,80,Croatia,Senegal,STAD_ATL,2026-07-01
+41,0.02,81,USA,Japan,STAD_SF,2026-07-01
+41,0.02,82,Belgium,Turkey,STAD_SEA,2026-07-01
+41,0.02,83,Colombia,England,STAD_TOR,2026-07-02
+41,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+41,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+41,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+41,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+41,0.02,88,Paraguay,Iran,STAD_DAL,2026-07-03
+42,0.02,73,South Africa,Bosnia,STAD_LA,2026-06-28
+42,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+42,0.02,75,Japan,Scotland,STAD_MTY,2026-06-29
+42,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+42,0.02,77,France,Morocco,STAD_NY_NJ,2026-06-30
+42,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+42,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+42,0.02,80,England,Turkey,STAD_ATL,2026-07-01
+42,0.02,81,Paraguay,Canada,STAD_SF,2026-07-01
+42,0.02,82,Belgium,Sweden,STAD_SEA,2026-07-01
+42,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+42,0.02,84,Spain,Argentina,STAD_LA,2026-07-02
+42,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+42,0.02,86,Austria,Uruguay,STAD_MIA,2026-07-02
+42,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+42,0.02,88,USA,Iran,STAD_DAL,2026-07-03
+43,0.02,73,South Korea,Bosnia,STAD_LA,2026-06-28
+43,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+43,0.02,75,Netherlands,Brazil,STAD_MTY,2026-06-29
+43,0.02,76,Morocco,Sweden,STAD_HOU,2026-06-29
+43,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+43,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+43,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+43,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+43,0.02,81,USA,Switzerland,STAD_SF,2026-07-01
+43,0.02,82,Belgium,Japan,STAD_SEA,2026-07-01
+43,0.02,83,Portugal,Ghana,STAD_TOR,2026-07-02
+43,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+43,0.02,85,Canada,Turkey,STAD_VAN,2026-07-02
+43,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+43,0.02,87,Colombia,Croatia,STAD_KC,2026-07-03
+43,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+44,0.02,73,South Korea,Qatar,STAD_LA,2026-06-28
+44,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+44,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+44,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+44,0.02,77,France,Paraguay,STAD_NY_NJ,2026-06-30
+44,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+44,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+44,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+44,0.02,81,USA,Canada,STAD_SF,2026-07-01
+44,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+44,0.02,83,DR Congo,Croatia,STAD_TOR,2026-07-02
+44,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+44,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+44,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+44,0.02,87,Portugal,Colombia,STAD_KC,2026-07-03
+44,0.02,88,Turkey,Egypt,STAD_DAL,2026-07-03
+45,0.02,73,South Korea,Bosnia,STAD_LA,2026-06-28
+45,0.02,74,Germany,Canada,STAD_BOS,2026-06-29
+45,0.02,75,Netherlands,Scotland,STAD_MTY,2026-06-29
+45,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+45,0.02,77,Norway,Morocco,STAD_NY_NJ,2026-06-30
+45,0.02,78,Ecuador,France,STAD_DAL,2026-06-30
+45,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+45,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+45,0.02,81,USA,Sweden,STAD_SF,2026-07-01
+45,0.02,82,Belgium,Colombia,STAD_SEA,2026-07-01
+45,0.02,83,DR Congo,Croatia,STAD_TOR,2026-07-02
+45,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+45,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+45,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+45,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+45,0.02,88,Turkey,Iran,STAD_DAL,2026-07-03
+46,0.02,73,Mexico,Bosnia,STAD_LA,2026-06-28
+46,0.02,74,Germany,South Korea,STAD_BOS,2026-06-29
+46,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+46,0.02,76,Brazil,Japan,STAD_HOU,2026-06-29
+46,0.02,77,Norway,Scotland,STAD_NY_NJ,2026-06-30
+46,0.02,78,Ivory Coast,Senegal,STAD_DAL,2026-06-30
+46,0.02,79,South Africa,Ecuador,STAD_MEX,2026-06-30
+46,0.02,80,England,France,STAD_ATL,2026-07-01
+46,0.02,81,USA,Canada,STAD_SF,2026-07-01
+46,0.02,82,Belgium,Austria,STAD_SEA,2026-07-01
+46,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+46,0.02,84,Spain,Algeria,STAD_LA,2026-07-02
+46,0.02,85,Switzerland,Turkey,STAD_VAN,2026-07-02
+46,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+46,0.02,87,Portugal,Ghana,STAD_KC,2026-07-03
+46,0.02,88,Paraguay,Egypt,STAD_DAL,2026-07-03
+47,0.02,73,South Korea,Switzerland,STAD_LA,2026-06-28
+47,0.02,74,Germany,Canada,STAD_BOS,2026-06-29
+47,0.02,75,Netherlands,Morocco,STAD_MTY,2026-06-29
+47,0.02,76,Brazil,Tunisia,STAD_HOU,2026-06-29
+47,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+47,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+47,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+47,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+47,0.02,81,Turkey,Japan,STAD_SF,2026-07-01
+47,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+47,0.02,83,Portugal,Croatia,STAD_TOR,2026-07-02
+47,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+47,0.02,85,Bosnia,Colombia,STAD_VAN,2026-07-02
+47,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+47,0.02,87,Uzbekistan,Paraguay,STAD_KC,2026-07-03
+47,0.02,88,USA,Egypt,STAD_DAL,2026-07-03
+48,0.02,73,Mexico,Canada,STAD_LA,2026-06-28
+48,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+48,0.02,75,Sweden,Morocco,STAD_MTY,2026-06-29
+48,0.02,76,Brazil,Netherlands,STAD_HOU,2026-06-29
+48,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+48,0.02,78,Ecuador,Norway,STAD_DAL,2026-06-30
+48,0.02,79,South Korea,Ivory Coast,STAD_MEX,2026-06-30
+48,0.02,80,England,Senegal,STAD_ATL,2026-07-01
+48,0.02,81,Paraguay,Bosnia,STAD_SF,2026-07-01
+48,0.02,82,Iran,Japan,STAD_SEA,2026-07-01
+48,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+48,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+48,0.02,85,Switzerland,Egypt,STAD_VAN,2026-07-02
+48,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+48,0.02,87,Portugal,USA,STAD_KC,2026-07-03
+48,0.02,88,Turkey,Belgium,STAD_DAL,2026-07-03
+49,0.02,73,South Korea,Canada,STAD_LA,2026-06-28
+49,0.02,74,Germany,Czechia,STAD_BOS,2026-06-29
+49,0.02,75,Netherlands,Brazil,STAD_MTY,2026-06-29
+49,0.02,76,Morocco,Japan,STAD_HOU,2026-06-29
+49,0.02,77,France,Scotland,STAD_NY_NJ,2026-06-30
+49,0.02,78,Ecuador,Senegal,STAD_DAL,2026-06-30
+49,0.02,79,Mexico,Ivory Coast,STAD_MEX,2026-06-30
+49,0.02,80,England,Norway,STAD_ATL,2026-07-01
+49,0.02,81,Turkey,Bosnia,STAD_SF,2026-07-01
+49,0.02,82,Belgium,Algeria,STAD_SEA,2026-07-01
+49,0.02,83,Colombia,Croatia,STAD_TOR,2026-07-02
+49,0.02,84,Spain,Austria,STAD_LA,2026-07-02
+49,0.02,85,Switzerland,Sweden,STAD_VAN,2026-07-02
+49,0.02,86,Argentina,Uruguay,STAD_MIA,2026-07-02
+49,0.02,87,Portugal,Paraguay,STAD_KC,2026-07-03
+49,0.02,88,USA,Egypt,STAD_DAL,2026-07-03

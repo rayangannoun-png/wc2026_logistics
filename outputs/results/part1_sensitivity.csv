@@ -1,0 +1,7 @@
+parameter,value,total_cost_usd,feu_total,ports_open,depots_open
+weight_constraint,on,458626,71,LA+NY+VAN,LAX+EWR
+weight_constraint,off,324180,40,LA+NY+HOU+VAN,LAX+EWR
+lcl_policy,lcl_allowed,458626,71,LA+NY+VAN,LAX+EWR
+lcl_policy,fcl_only,461269,72,LA+NY+VAN,LAX+EWR
+led_routing,direct,458626,71,LA+NY+VAN,LAX+EWR
+led_routing,via_depot,442760,70,LA+NY,LAX+EWR

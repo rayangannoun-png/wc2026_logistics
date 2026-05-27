@@ -1,0 +1,41 @@
+{
+  "total_cost": 458625.6482104783,
+  "cost_breakdown": {
+    "sea": 310508.92154347827,
+    "depot_fixed": 30000.0,
+    "depot_handling": 27572.181667000004,
+    "truck_port_depot": 1609.7199999999998,
+    "truck_depot_stadium": 58850.30499999999,
+    "truck_port_stadium_led": 30084.52
+  },
+  "feu_led_total": 42.0,
+  "feu_soft_total": 29.0,
+  "feu_total": 71.0,
+  "ports_open": {
+    "PORT_LA_LB": {
+      "feu_led": 18.0,
+      "feu_soft": 17.0,
+      "lcl_soft": 14.869665217391244
+    },
+    "PORT_NY_NJ": {
+      "feu_led": 18.0,
+      "feu_soft": 12.0,
+      "lcl_soft": 0.0
+    },
+    "PORT_VAN": {
+      "feu_led": 6.0,
+      "feu_soft": 0.0,
+      "lcl_soft": 0.0
+    }
+  },
+  "depots_open": [
+    "LAX_DEPOT_NODE",
+    "EWR_DEPOT_NODE"
+  ],
+  "setup": {
+    "led_direct": true,
+    "use_depots": true,
+    "enforce_weight": true,
+    "allow_lcl": true
+  }
+}

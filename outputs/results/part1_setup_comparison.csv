@@ -1,0 +1,5 @@
+setup,total_cost_usd,feu_led,feu_soft,feu_total
+"baseline (LED direct, depots, weight, LCL)",458626,42,29,71
+LED via depot (no direct),442760,41,29,70
+volume-only (no weight constraint),324180,16,24,40
+FCL-only (no LCL),461269,42,30,72
