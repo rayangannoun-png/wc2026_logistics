@@ -8,6 +8,7 @@ STEPS = [
     ("Part II: generate scenarios",   "src.part2_stochastic.scenarios"),
     ("Part II: stochastic model",     "src.part2_stochastic.model"),
     ("Part II: sensitivity",          "src.part2_stochastic.sensitivity"),
+    ("Export result tables",          "src.common.export_tables"),
     ("Figures",                       "src.common.visualize"),
 ]
 

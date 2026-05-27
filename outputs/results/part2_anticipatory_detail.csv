@@ -1,0 +1,17 @@
+match_id,venue_node,window_days,is_forced,stage1_volume_m3,decision
+73,STAD_LA,1,True,0.2702,anticipatory
+74,STAD_BOS,2,True,0.2702,anticipatory
+75,STAD_MTY,2,True,0.2702,anticipatory
+76,STAD_HOU,2,True,0.2702,anticipatory
+77,STAD_NY_NJ,3,False,0.0,reactive
+78,STAD_DAL,3,True,0.2702,anticipatory
+79,STAD_MEX,3,True,0.2702,anticipatory
+80,STAD_ATL,4,False,0.0,reactive
+81,STAD_SF,4,False,0.0,reactive
+82,STAD_SEA,4,False,0.0,reactive
+83,STAD_TOR,5,False,0.0,reactive
+84,STAD_LA,5,False,0.0,reactive
+85,STAD_VAN,5,False,0.0,reactive
+86,STAD_MIA,5,False,0.0,reactive
+87,STAD_KC,6,False,0.0,reactive
+88,STAD_DAL,6,False,0.0,reactive

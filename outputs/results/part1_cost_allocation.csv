@@ -1,0 +1,8 @@
+component,cost_usd,pct_of_total
+Ocean freight (sea),310508.92,67.7
+Depot fixed cost,30000.0,6.5
+Depot handling,27572.18,6.0
+Trucking port → depot,1609.72,0.4
+Trucking depot → stadium,58850.3,12.8
+Trucking port → stadium (LED direct),30084.52,6.6
+TOTAL,458625.65,100.0

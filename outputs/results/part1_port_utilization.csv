@@ -1,0 +1,4 @@
+port,port_node,feu_led,feu_soft,feu_total,lcl_m3,pct_feu_of_total
+LA,PORT_LA_LB,18,17,35,14.87,49.3
+NY_NJ,PORT_NY_NJ,18,12,30,0.0,42.3
+VAN,PORT_VAN,6,0,6,0.0,8.5
