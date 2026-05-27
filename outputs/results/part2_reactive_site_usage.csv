@@ -1,0 +1,6 @@
+production_site,region,avg_matches_per_scenario,frequency_pct
+PROD_WASS_NC,USA — North Carolina,3.0,300.0
+PROD_WASS_TEMPE,USA — Arizona,3.0,300.0
+PROD_TLC_TUKWILA,USA — Washington,2.0,200.0
+PROD_TLC_BARRIE,Canada — Ontario,1.0,100.0
+PROD_TLC_TAMPA,USA — Florida,1.0,100.0

@@ -1,0 +1,15 @@
+part,metric,value,unit
+Part I,Total cost,458626.0,USD
+Part I,Total FEU containers,71,FEU
+Part I,LED FEU containers,42,FEU
+Part I,Soft-goods FEU containers,29,FEU
+Part I,Ports opened,3,(LA/NY_NJ/VAN)
+Part I,Depots opened,2,(LAX/EWR)
+Part I,Ocean-freight share of total,67.7,%
+Part I,Weight-constraint cost impact,,USD vs volume-only baseline
+Part II,Total expected cost,302535.0,USD
+Part II,Stage-1 anticipatory cost,165004.0,USD
+Part II,Stage-2 expected reactive cost,137531.0,USD
+Part II,Forced-anticipatory matches,6,of 16 R32 matches
+Part II,Scenarios analysed,50,Monte-Carlo scenarios
+Part II,Production-cost cost slope,6050.0,USD per +$1 / m²
