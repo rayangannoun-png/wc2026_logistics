@@ -62,29 +62,35 @@ from part2_stochastic.model import solve_stochastic
 
 
 # ============================================================================
-# === STYLE === FIFA WC2026 brand palette
+# === STYLE === Cooler palette (FIFA blues + black + cool golds)
 # ============================================================================
-F_PURPLE  = "#622EEA"
-F_RED     = "#D31E03"
-F_LIME    = "#AEEA00"
-F_BLUE    = "#375AFE"
-F_LBLUE   = "#8DBAFE"
-F_NAVY    = "#1A2688"
+F_BLUE    = "#375AFE"   # bright blue
+F_LBLUE   = "#8DBAFE"   # light blue
+F_NAVY    = "#1A2688"   # dark navy
+F_BLACK   = "#000000"   # warnings / forced / extra cost
+F_GOLD    = "#C9B488"   # lighter cool gold (savings / reactive)
+F_DGOLD   = "#7A6438"   # darker cool gold (stage-1 / decision)
+
+# Retired colour names remapped to new palette (avoids hunting every usage).
+# Old semantic intent is preserved by the chosen remap.
+F_PURPLE  = F_DGOLD     # stage-1 / decision accent (was purple)
+F_RED     = F_BLACK     # warnings / forced / extra cost (was red)
+F_LIME    = F_GOLD      # savings / reactive / positive (was lime)
 
 # Semantic aliases
 C_LED       = F_BLUE
 C_SOFT      = F_LBLUE
-C_STAGE1    = F_PURPLE
+C_STAGE1    = F_DGOLD
 C_STAGE2    = F_LBLUE
-C_FORCED    = F_RED
-C_REACTIVE  = F_LIME
-C_SAVINGS   = F_LIME
-C_EXTRA     = F_RED
+C_FORCED    = F_BLACK
+C_REACTIVE  = F_GOLD
+C_SAVINGS   = F_GOLD
+C_EXTRA     = F_BLACK
 C_BASELINE  = F_NAVY
 C_SEA       = F_NAVY
 C_NEUTRAL   = "#C8D0E0"
 
-COST_COLORS = [F_NAVY, F_PURPLE, F_BLUE, F_LBLUE, F_RED, F_LIME]
+COST_COLORS = [F_NAVY, F_DGOLD, F_BLUE, F_LBLUE, F_BLACK, F_GOLD]
 
 plt.rcParams.update({
     "font.family":            "DejaVu Sans",
@@ -1088,7 +1094,7 @@ def fig_part2_feasibility():
     ax.legend(handles=legend_els, loc="upper right", fontsize=8.5)
     _title_block(ax,
                  "Part II — Feasibility: reactive supply needs  transit ≤ window − 1 day",
-                 f"{len(forced_idx)} matches are forced anticipatory (red outline)")
+                 f"{len(forced_idx)} matches are forced anticipatory (outlined bars)")
     fig.tight_layout()
     _footer(fig, "scenario 0 + edges.csv + production_sites.csv")
     _save(fig, "part2_feasibility.png")
@@ -1336,7 +1342,7 @@ def fig_anticipatory_by_match():
     ax.legend(handles=legend_els, loc="upper right", fontsize=8.5, ncol=2)
     _title_block(ax,
                  "Part II — Supply strategy by R32 match",
-                 "Pink-shaded matches are forced anticipatory: window ≤ transit + 1 day")
+                 "Shaded matches are forced anticipatory: window ≤ transit + 1 day")
     fig.tight_layout()
     _footer(fig, "solve_stochastic() + edges.csv")
     _save(fig, "part2_anticipatory_by_match.png")
