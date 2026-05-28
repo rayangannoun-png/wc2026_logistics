@@ -1706,9 +1706,9 @@ def fig_three_models_overview():
                 fontsize=fontsize, color=text_color, fontweight=fontweight)
 
     # ---- Top header
-    box(50, 45.5, 70, 4,
-        "VENUE BRANDING LOGISTICS  ·  China → 16 host stadiums  ·  ≈ 2 726 m³ total",
-        F_NAVY, text_color="white", fontsize=11)
+    box(50, 45.5, 38, 4,
+        "VENUE BRANDING LOGISTICS",
+        F_NAVY, text_color="white", fontsize=12)
 
     # ---- Category banners
     box(28, 38, 42, 4.5,
