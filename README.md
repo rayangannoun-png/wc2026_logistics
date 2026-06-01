@@ -15,6 +15,14 @@ the 16 host stadiums (USA / Canada / Mexico).
   material (flags, "A vs B" decals, ~6.5 m³) for the Round of 32 under team
   uncertainty; reactive local production vs anticipatory pre-positioning.
 
+## CO₂ extension
+
+`co2_minimization/` re-solves the Part I network with **emissions** as the
+objective instead of cost (GLEC / ISO 14083 factors). It compares **FCL vs LCL**
+shipping for the soft cargo class (LED excluded — assumed rented locally) and
+generates the report's CO₂ figures. See `co2_minimization/emission_assumptions.csv`
+for every factor and its source.
+
 ## Quick start
 
 ```bash
@@ -53,6 +61,7 @@ reference/           inventory reconstructions, course KB, tournament reference
 src/common/          data loader + visualisations
 src/part1_lrp/       deterministic LRP
 src/part2_stochastic/  two-stage stochastic program
+co2_minimization/    CO₂-objective variant (FCL vs LCL emissions)
 outputs/             results (CSV/JSON) + figures (PNG)
 ```
 
