@@ -1,0 +1,8 @@
+parameter,value,unit,source_type,notes
+truck_capacity_m3,90,m3,project_assumption,Same baseline truck capacity used in Silas distance model.
+truck_kg_co2e_per_km,0.9,kg CO2e per truck-km,literature_proxy,Close to UK government HGV articulated average-laden factors and EPA SmartWay g/mile accounting logic.
+packed_material_density_kg_per_m3,25,kg material per shipped m3,project_assumption,Temporary signage is shipped with air/rolls/cases; shipped volume is not solid material volume.
+material_kg_co2e_per_kg,3.2,kg CO2e per kg material,literature_proxy,Mixed PVC/PET/print substrate proxy; PVC resin factors are commonly around 2-4 kg CO2e/kg before finishing.
+material_kg_co2e_per_m3,80,kg CO2e per shipped m3,derived,25 kg material per shipped m3 times 3.2 kg CO2e per kg material.
+production_lead_days,2,days,project_assumption,Current playoff production lead time assumption.
+delivery_buffer_days,1,days,project_assumption,Current deadline assumption: arrive one day before match.
