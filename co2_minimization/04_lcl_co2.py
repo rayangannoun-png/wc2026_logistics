@@ -19,7 +19,7 @@ import csv
 import pulp
 
 BASE_DIR    = Path(__file__).resolve().parent
-PROJECT_DIR = BASE_DIR.parent.parent
+PROJECT_DIR = BASE_DIR.parent          # co2_minimization/ lives at the repo root
 
 ARC_COST_FILE   = PROJECT_DIR / "data" / "processed" / "arc_cost_matrix_usd.csv"
 PORT_FIXED_FILE = PROJECT_DIR / "data" / "processed" / "port_fixed_costs_usd.csv"

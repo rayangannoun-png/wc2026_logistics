@@ -1,6 +1,6 @@
 """
 Generate CO₂-section figures (soft cargo only, LED excluded).
-Saves to: ~/Desktop/Logistics_Report/figures/
+Saves to: outputs/figures/ (repo root), matching src.common.visualize.
 """
 
 from pathlib import Path
@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-OUT_DIR = Path.home() / "Desktop" / "Logistics_Report" / "figures"
+# co2_minimization/ sits at the repo root, so parent.parent is the repo root.
+OUT_DIR = Path(__file__).resolve().parent.parent / "outputs" / "figures"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Palette ───────────────────────────────────────────────────────────────────
